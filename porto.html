@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #2F4156;
+            --accent-color: #F5EFEB;
+            --text-color: #F4F1DE;
+            --secondary-color: #567C8D;
+            --font-primary: 'Poppins', sans-serif;
+            --font-secondary: 'Playfair Display', serif;
+            p {
+    text-align: justify;
+}
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: var(--bg-color);
+        }
+
+        header h1 {
+            font-family: var(--font-secondary);
+            font-size: 24px;
+            text-align: justify;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: var(--secondary-color);
+        }
+
+        .hero .content {
+            max-width: 600px;
+        }
+
+        .hero h2 {
+            font-family: var(--font-secondary);
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+            padding: 10px 20px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            border: 2px solid var(--accent-color);
+        }
+
+        .section {
+            padding: 50px;
+        }
+
+        .section h3 {
+            font-family: var(--font-secondary);
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+        }
+
+        .section p {
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nabila Riana Savitri</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h2>Portfolio</h2>
+            <p>Welcome to my portfolio! Here, you’ll find highlights of my work across administrative support, content creation, and entrepreneurial projects. From managing accurate data entries during my internship at the Directorate General of Customs and Excise to publishing articles that celebrate cultural diversity as an Honorary Reporter for Korea.net, my portfolio showcases my dedication to detail and storytelling.
+
+You’ll also see examples of my entrepreneurial skills from running an online food business, where I handled marketing, customer service, and operations independently. Each section reflects my passion for organization, adaptability, and delivering meaningful results.</p>
+            <button class="btn">Get in touch</button>
+        </div>
+        <div class="image">
+            <!-- Add an image element here if needed -->
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h3>Salutes! I'm Nabila Riana Savitri!</h3>
+        <p>I am Nabila Riana Savitri, an International Relations graduate with a strong foundation in administrative support, data management, and content creation. My professional experiences include managing data entries during my internship at the Directorate General of Customs and Excise, publishing engaging articles as an Honorary Reporter for Korea.net, and running a small online business that enhanced my customer service and marketing skills.
+
+I am proficient in Microsoft Office, Google Workspace, and Canva, with a keen eye for detail and a passion for organization. I thrive in dynamic environments where I can apply my problem-solving abilities, effective communication skills, and adaptability. My portfolio reflects my dedication to producing quality work and my commitment to contributing positively to every team I am part of.</p>
+    </section>
+
+    <section class="section" id="resume">
+        <h3>Resume</h3>
+        <p>Education, experience, and skills will be listed here in a visually appealing format.</p>
+    </section>
+
+    <section class="section" id="work">
+        <h3>Work</h3>
+        <p>Showcase of previous projects or portfolio items.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h3>Contact</h3>
+        <p>Email: nabilaworkings@gmail.com</p>
+        <p>Phone: 62-812-7959-9768</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nabila Riana Savitri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
